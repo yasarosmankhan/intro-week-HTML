@@ -1,0 +1,32 @@
+body {
+    background-color: lightblue;
+  }
+
+img {
+    width: 500px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid black;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul {
+    color: yellowgreen;
+}
+
+ol {
+    color: tomato;
+}
+
+p {
+    text-align: center;
+}
