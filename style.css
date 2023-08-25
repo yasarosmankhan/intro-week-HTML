@@ -17,9 +17,8 @@ html, body {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 10px;
-    border-radius: 10px;
   }
-  
+
   .item {
     border: 1px solid #fff;
     padding: 20px;
@@ -59,7 +58,9 @@ img {
 }
 
 h1 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-align: center;
+    justify-self: center;
 }
 
 h2 {
@@ -75,5 +76,8 @@ ol {
 }
 
 p {
-    text-align: center;
+    justify-self: center;
+    color: whitesmoke;
+    padding-left: 5%;
+    padding-right: 5%;
 }
