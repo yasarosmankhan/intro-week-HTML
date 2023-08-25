@@ -1,5 +1,52 @@
-body {
-    background-color: lightblue;
+html, body {
+    background-image: url("./background.jpg");
+    height: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+
+.container {
+    background: rgba(0,0,0,.5);
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .item {
+    border: 1px solid #fff;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
   }
 
 img {
